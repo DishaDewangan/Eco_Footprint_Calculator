@@ -81,3 +81,47 @@ ul {
 li {
   margin-bottom: 10px;
 }
+
+#emission-bar {
+  height: 20px;
+  width: 100%;
+  margin-top: 10px;
+  display: none;
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #ddd;
+}
+
+.bar-segment {
+  height: 100%;
+  transition: width 0.5s;
+}
+
+#transport-bar {
+  background-color: #3498db;
+}
+
+#electricity-bar {
+  background-color: #f39c12;
+}
+
+#diet-bar {
+  background-color: #e74c3c;
+}
+
+#waste-bar {
+  background-color: #2ecc71;
+}
+
+.breakdown {
+  display: none;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 0.85em;
+  color: #fff;
+}
+
+.breakdown span {
+  display: inline-block;
+  margin-right: 10px;
+}
