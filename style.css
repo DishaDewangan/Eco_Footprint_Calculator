@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: #ffffff;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://cdn.gencraft.com/prod/user/c5eae46e-aa3b-493a-86bb-c5df09316c93/2ac756bf-c5a0-4692-9fc9-1209d47cd660/image/image0_0.jpg?Expires=1731742791&Signature=OfzG~ePX7sB1fodK4i0vYMQ0QXu8j3P8pT6l1Zh~CtN~Yz2aQTSrLgVGoIaVspGJzZNmfsJ9uarBdibf47Zld6dzl6Mo90ZPjUlj0xrbxqdmQz5eOD8qZ4AVY03yF833DhPxBhUYjG6zaLFkYYDOX~~Xscn8HtNxNOsdpVMuPCXlBc-YrbzmlViBmnV-gM9r5Jju8I5ZYpKlsYcrh5nfxhkbf3cbTKTAyQasohwgK7D7CXFaCPRK1NwEFWx5oLj27PFtgnxWlapADcHrU68vX8iv44ixyVf5C5XXw0cMLRRuPCb9WbU2b5j2aWSx46PcLfNa2bSpumTZg6VG-U48Og__&Key-Pair-Id=K3RDDB1TZ8BHT8");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.container {
+  max-width: 600px;
+  width: 90%;
+  padding: 30px;
+  background-color: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  background-color: #2c5364;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #203a43;
+}
+
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+label {
+  width: 45%;
+  text-align: left;
+  font-size: 0.9rem;
+}
+
+input {
+  width: 50%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+#results,
+#tips {
+  margin-top: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+ul {
+  list-style-position: inside;
+  display: inline-block;
+  text-align: left;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+li {
+  margin-bottom: 10px;
+}
