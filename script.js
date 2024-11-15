@@ -47,25 +47,32 @@ function calculateFootprint() {
   `;
 
   document.querySelector("#transport-bar").style.width = `${transportPercent}%`;
+  document.querySelector("#transport-bar").style.backgroundColor = "#070738";
+
   document.querySelector(
     "#electricity-bar"
   ).style.width = `${electricityPercent}%`;
+  document.querySelector("#electricity-bar").style.backgroundColor = "#F2D2BD";
+
   document.querySelector("#diet-bar").style.width = `${dietPercent}%`;
+  document.querySelector("#diet-bar").style.backgroundColor = "#DC143C";
+
   document.querySelector("#waste-bar").style.width = `${wastePercent}%`;
+  document.querySelector("#waste-bar").style.backgroundColor = "#AAFF00";
 
   document.querySelector("#emission-bar").style.display = "flex";
   document.querySelector("#breakdown").style.display = "flex";
   document.querySelector("#breakdown").innerHTML = `
-      <span><span style="color: #3498db;">&#9632;</span> Transport: ${transportPercent.toFixed(
+      <span><span style="color: #070738;">&#9632;</span> Transport: ${transportPercent.toFixed(
         1
       )}%</span>
-      <span><span style="color: #f39c12;">&#9632;</span> Electricity: ${electricityPercent.toFixed(
+      <span><span style="color: #F2D2BD;">&#9632;</span> Electricity: ${electricityPercent.toFixed(
         1
       )}%</span>
-      <span><span style="color: #e74c3c;">&#9632;</span> Diet: ${dietPercent.toFixed(
+      <span><span style="color: #DC143C;">&#9632;</span> Diet: ${dietPercent.toFixed(
         1
       )}%</span>
-      <span><span style="color: #2ecc71;">&#9632;</span> Waste: ${wastePercent.toFixed(
+      <span><span style="color: #AAFF00;">&#9632;</span> Waste: ${wastePercent.toFixed(
         1
       )}%</span>
   `;
