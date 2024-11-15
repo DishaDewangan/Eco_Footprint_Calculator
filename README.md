@@ -17,7 +17,7 @@ The **Eco Footprint Calculator** is a web-based tool designed to help you estima
 - **Reduction Tips**: Suggestions to help you minimize your carbon footprint.
 
 ## 🚀 Live Demo
-Check out the [live demo](#) to try it out in real-time!
+Check out the [live demo](https://dishadewangan.github.io/Eco_Footprint_Calculator/) to try it out in real-time!
 
 ## 🛠️ Technologies Used
 - **HTML** for the structure
