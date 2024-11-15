@@ -5,7 +5,7 @@
 
 ## 🌟 Overview
 
-The **Eco Footprint Calculator** is a web-based tool designed to help you estimate your annual carbon footprint based on your daily activities. It takes into account factors such as car travel, flights, energy consumption, and waste generation, providing insights into your environmental impact. With this tool, you can easily understand and take actionable steps to reduce your carbon footprint.
+The **Eco Footprint Calculator** is a fully responsive web-based tool designed to help you estimate your annual carbon footprint based on your daily activities. It takes into account factors such as car travel, flights, energy consumption, and waste generation, providing insights into your environmental impact. With this tool, you can easily understand and take actionable steps to reduce your carbon footprint.
 
 ## 💻 Features
 - **User-Friendly Interface**: Simple and clean design, easy to use.
@@ -14,6 +14,7 @@ The **Eco Footprint Calculator** is a web-based tool designed to help you estima
   - **Green** for low impact
   - **Orange** for moderate impact
   - **Red** for high impact
+- **Fully Responsive**: Optimized for both desktop and mobile screens, ensuring a smooth experience on all devices
 - **Reduction Tips**: Suggestions to help you minimize your carbon footprint.
 
 ## 🚀 Live Demo
