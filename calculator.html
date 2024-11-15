@@ -43,14 +43,47 @@
             required
           />
         </div>
+        <div class="input-field">
+          <label for="mealsPerDay">Meals Per Day:</label>
+          <input
+            type="number"
+            id="mealsPerDay"
+            placeholder="e.g., 3"
+            required
+          />
+        </div>
         <button type="button" onclick="calculateFootprint()">
           Calculate Footprint
         </button>
       </form>
+
       <div id="results"></div>
+      <div id="emission-bar">
+        <div id="transport-bar" class="bar-segment"></div>
+        <div id="electricity-bar" class="bar-segment"></div>
+        <div id="diet-bar" class="bar-segment"></div>
+        <div id="waste-bar" class="bar-segment"></div>
+      </div>
+      <div id="breakdown" class="breakdown"></div>
+
+      <!-- Breakdown Section -->
+      <div id="breakdown" style="display: none">
+        <strong>Breakdown by Category:</strong>
+        <ul>
+          <li>
+            <span style="color: #3498db">&#9632;</span> Transportation (Blue)
+          </li>
+          <li>
+            <span style="color: #f39c12">&#9632;</span> Electricity Usage
+            (Orange)
+          </li>
+          <li><span style="color: #e74c3c">&#9632;</span> Diet (Red)</li>
+          <li><span style="color: #2ecc71">&#9632;</span> Waste (Green)</li>
+        </ul>
+      </div>
+
       <div id="tips"></div>
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
